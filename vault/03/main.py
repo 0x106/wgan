@@ -16,6 +16,8 @@ class Map(dict):
 	"""
 	Example:
 	m = Map({'first_name': 'Eduardo'}, last_name='Pool', age=24, sports=['Soccer'])
+	Taken from: http://stackoverflow.com/questions/2352181/how-to-use-a-dot-to-access-members-of-dictionary
+	- user: epool
 	"""
 	def __init__(self, *args, **kwargs):
 		super(Map, self).__init__(*args, **kwargs)
